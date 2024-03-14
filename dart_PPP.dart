@@ -1,17 +1,12 @@
-main(){
-  print('Hi World');
-  print('skk');
+void main(){
 
-  int num1 = 10;
-  int num2 = 200;
-  print(num1+num2);
-  Map< int,String>studentRoll={
-    1:'Sarowar',
-    2:'Shadhen',
-    3:'Molla'
-  };
-  print(studentRoll);
-// skld;slk
+  print('hello dart progriming');
 
+  int num1 = 45;
+  double num2 = 34.534;
+  double mul = num1 * num2 ;
+  print(mul);
+  List<String>Name = ['sarowar','shadhen','molla','AJ'];
+  print(Name);
 
 }
